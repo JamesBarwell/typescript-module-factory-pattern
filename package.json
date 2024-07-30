@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "build-watch": "tsc -w --noEmit",
+    "start": "node build/index.js",
+    "test": "tsc && node --test build/calc.test.js"
+  },
+  "dependencies": {
+    "typescript": "^5.5.4"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^20.14.12"
+  }
+}
